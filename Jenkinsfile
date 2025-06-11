@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // зазвичай Jenkins сам робить checkout коду
+        
                 checkout scm
             }
         }
@@ -22,7 +22,7 @@ pipeline {
             }
             post {
                 always {
-                    junit "$BUILD_DIR/**/TestResults/*.xml" // якщо тести генерують xml
+                    junit "$BUILD_DIR/**/TestResults/*.xml"
                 }
             }
         }
