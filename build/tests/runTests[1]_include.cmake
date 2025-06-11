@@ -1,0 +1,5 @@
+if(EXISTS "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests[1]_tests.cmake")
+  include("/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests[1]_tests.cmake")
+else()
+  add_test(runTests_NOT_BUILT runTests_NOT_BUILT)
+endif()

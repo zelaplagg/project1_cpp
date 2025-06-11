@@ -1,0 +1,165 @@
+Start testing: Jun 11 19:31 CEST
+----------------------------------------------------------
+1/6 Testing: StringProcessorTest.ValidStringReturnsTrue
+1/6 Test: StringProcessorTest.ValidStringReturnsTrue
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=StringProcessorTest.ValidStringReturnsTrue" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"StringProcessorTest.ValidStringReturnsTrue" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StringProcessorTest.ValidStringReturnsTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StringProcessorTest
+[ RUN      ] StringProcessorTest.ValidStringReturnsTrue
+[       OK ] StringProcessorTest.ValidStringReturnsTrue (0 ms)
+[----------] 1 test from StringProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StringProcessorTest.ValidStringReturnsTrue" end time: Jun 11 19:31 CEST
+"StringProcessorTest.ValidStringReturnsTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: StringProcessorTest.EmptyStringReturnsFalse
+2/6 Test: StringProcessorTest.EmptyStringReturnsFalse
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=StringProcessorTest.EmptyStringReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"StringProcessorTest.EmptyStringReturnsFalse" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StringProcessorTest.EmptyStringReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StringProcessorTest
+[ RUN      ] StringProcessorTest.EmptyStringReturnsFalse
+[       OK ] StringProcessorTest.EmptyStringReturnsFalse (0 ms)
+[----------] 1 test from StringProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StringProcessorTest.EmptyStringReturnsFalse" end time: Jun 11 19:31 CEST
+"StringProcessorTest.EmptyStringReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: StringProcessorTest.InvalidCharsReturnsFalse
+3/6 Test: StringProcessorTest.InvalidCharsReturnsFalse
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=StringProcessorTest.InvalidCharsReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"StringProcessorTest.InvalidCharsReturnsFalse" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StringProcessorTest.InvalidCharsReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StringProcessorTest
+[ RUN      ] StringProcessorTest.InvalidCharsReturnsFalse
+[       OK ] StringProcessorTest.InvalidCharsReturnsFalse (0 ms)
+[----------] 1 test from StringProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StringProcessorTest.InvalidCharsReturnsFalse" end time: Jun 11 19:31 CEST
+"StringProcessorTest.InvalidCharsReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: SortAlgorithmsTest.SortsCorrectly
+4/6 Test: SortAlgorithmsTest.SortsCorrectly
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=SortAlgorithmsTest.SortsCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"SortAlgorithmsTest.SortsCorrectly" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SortAlgorithmsTest.SortsCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortAlgorithmsTest
+[ RUN      ] SortAlgorithmsTest.SortsCorrectly
+[       OK ] SortAlgorithmsTest.SortsCorrectly (0 ms)
+[----------] 1 test from SortAlgorithmsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SortAlgorithmsTest.SortsCorrectly" end time: Jun 11 19:31 CEST
+"SortAlgorithmsTest.SortsCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: SortAlgorithmsTest.EmptyVector
+5/6 Test: SortAlgorithmsTest.EmptyVector
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=SortAlgorithmsTest.EmptyVector" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"SortAlgorithmsTest.EmptyVector" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SortAlgorithmsTest.EmptyVector
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortAlgorithmsTest
+[ RUN      ] SortAlgorithmsTest.EmptyVector
+[       OK ] SortAlgorithmsTest.EmptyVector (0 ms)
+[----------] 1 test from SortAlgorithmsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SortAlgorithmsTest.EmptyVector" end time: Jun 11 19:31 CEST
+"SortAlgorithmsTest.EmptyVector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: SortAlgorithmsTest.SingleElement
+6/6 Test: SortAlgorithmsTest.SingleElement
+Command: "/Users/zelaplagg/Projects/lab4-ci-macos1/build/tests/runTests" "--gtest_filter=SortAlgorithmsTest.SingleElement" "--gtest_also_run_disabled_tests"
+Directory: /Users/zelaplagg/Projects/lab4-ci-macos1/build
+"SortAlgorithmsTest.SingleElement" start time: Jun 11 19:31 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SortAlgorithmsTest.SingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortAlgorithmsTest
+[ RUN      ] SortAlgorithmsTest.SingleElement
+[       OK ] SortAlgorithmsTest.SingleElement (0 ms)
+[----------] 1 test from SortAlgorithmsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SortAlgorithmsTest.SingleElement" end time: Jun 11 19:31 CEST
+"SortAlgorithmsTest.SingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 19:31 CEST

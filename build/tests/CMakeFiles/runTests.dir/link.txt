@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/runTests.dir/test_stringProcessor.cpp.o CMakeFiles/runTests.dir/test_sortAlgorithms.cpp.o -o runTests  ../libcore_lib.a ../lib/libgtest_main.a ../lib/libgtest.a

@@ -1,0 +1,7 @@
+StringProcessorTest.ValidStringReturnsTrue 1 0.0141291
+StringProcessorTest.EmptyStringReturnsFalse 1 0.0054258
+StringProcessorTest.InvalidCharsReturnsFalse 1 0.0069361
+SortAlgorithmsTest.SortsCorrectly 1 0.0047304
+SortAlgorithmsTest.EmptyVector 1 0.00486617
+SortAlgorithmsTest.SingleElement 1 0.00583326
+---

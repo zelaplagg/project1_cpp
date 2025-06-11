@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/Users/zelaplagg/Projects/lab4-ci-macos1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
