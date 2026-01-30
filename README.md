@@ -1,36 +1,26 @@
-# Student Records Management System (C++)
+# CI/CD Automated Pipeline for C++ (macOS)
 
-## Overview
-This is a C++ application designed to manage student records using custom data structures. The project demonstrates a solid understanding of Object-Oriented Programming (OOP), dynamic memory management, and efficient data handling through a Priority Queue implementation.
+## Project Overview
+This project demonstrates the implementation of a Continuous Integration (CI) pipeline for a C++ application. It focuses on automating the software development lifecycle, from build configuration to automated testing and reporting.
 
-Developed as a practical project during my studies at **Igor Sikorsky Kyiv Polytechnic Institute**.
+## Key Technologies
+* **CI/CD:** Jenkins (Pipeline-as-Code via `Jenkinsfile`)
+* **Build System:** CMake & GNU Make
+* **Testing Framework:** GoogleTest (GTest)
+* **Environment:** macOS
+* **Languages:** C++ (Core logic), Python, and Makefile
 
-## Key Features
-* **Priority Queue Implementation:** Efficiently manages student records based on specific criteria.
-* **CRUD Operations:** Full support for adding, viewing, and managing student data.
-* **Dynamic Memory Management:** Manual handling of pointers and memory allocation to ensure performance.
-* **Formatted Console UI:** Clean and intuitive command-line interface for data interaction.
-
-## Technical Stack
-* **Language:** C++ (Standard Template Library)
-* **Paradigm:** Object-Oriented Programming (OOP)
-* **Tools:** GCC/Clang compiler
+## Features
+* **Automated Builds:** Seamless compilation using CMake and Makefile setup.
+* **Unit Testing:** Integrated GoogleTest suite to ensure code reliability.
+* **Pipeline Automation:** Automated workspace cleanup and build execution defined in a `Jenkinsfile`.
+* **Artifacts & Reporting:** Generation of XML test reports (`test_report.xml`) for status monitoring.
 
 ## Project Structure
-* `Student.cpp / .h` - Defines the Student entity and its attributes.
-* `Queue.cpp / .h` - Custom implementation of the queue logic.
-* `Main.cpp` - Entry point and user interface logic.
-
-## How to Build and Run
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/zelaplagg/project1_cpp.git](https://github.com/zelaplagg/project1_cpp.git)
-2. Compile the project:
-
-Bash
-g++ -o student_system Main.cpp Student.cpp Queue.cpp
-
-3. Run the application:
-
-Bash
+* `Jenkinsfile` — Defines the automation pipeline stages.
+* `CMakeLists.txt` — Build system configuration.
+* `tests/` — Directory containing GoogleTest cases.
+* `src/` — Source code of the application.
+* `_deps/` — Managed project dependencies including GoogleTest builds.
+* `build/` — Build artifacts including object files and test executables.
 ./student_system
