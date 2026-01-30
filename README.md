@@ -22,6 +22,15 @@ Developed as a practical project during my studies at **Igor Sikorsky Kyiv Polyt
 * `Main.cpp` - Entry point and user interface logic.
 
 ## How to Build and Run
-1. **Clone the repository:**
+1. **Clone the repository**:
    ```bash
    git clone [https://github.com/zelaplagg/project1_cpp.git](https://github.com/zelaplagg/project1_cpp.git)
+2. Compile the project:
+
+Bash
+g++ -o student_system Main.cpp Student.cpp Queue.cpp
+
+3. Run the application:
+
+Bash
+./student_system
